@@ -1,0 +1,60 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      // uni-ui 规则如下配置
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": ""
+        // 首页
+      }
+    },
+    {
+      "path": "pages/category/category",
+      "style": {
+        "navigationBarTitleText": ""
+        // 分类
+      }
+    },
+    {
+      "path": "pages/consulting/consulting",
+      "style": {
+        "navigationBarTitleText": ""
+        // 客户咨询
+      }
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": ""
+        // 我的
+      }
+    },
+    {
+      "path": "pages/goods-detail/goods-detail",
+      "style": {
+        "navigationBarTitleText": ""
+        // 商品详情页
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    // 去除导航栏
+    "navigationStyle": "custom",
+    // 透明标题
+    "transparentTitle": "always",
+    // 标题穿透
+    "titlePenetrate": "YES",
+    // 导航栏点击穿透
+    "allowsBounceVertical": "No"
+  }
+}
